@@ -1,3 +1,5 @@
+# tiny-chess-01 v11: eval terms (pawn structure, rook files, outposts, king shield)
+# + history heuristic cleared per move + node budget 80000. Trial Elo mean 1432.
 import json,os,sys
 import urllib.request as u
 U=os.environ.get("MAKEFUN_ENV_URL")or sys.exit("no env")
